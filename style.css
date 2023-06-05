@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #07c8f9;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: #0d41e1;
+    color: #fff;
+    padding:50px 100px;
+    width: 70vw;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.container h1{
+    color: #f40752;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+#txtArea{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: 100px;
+    border-radius: 10px;
+    margin: 25px 0;
+    padding: 10px;
+    outline: none;
+}
+
+#txtArea::placeholder{
+   color: #0d41e1;
+   opacity: 0.5;
+}
+
+.container small{
+    text-decoration: underline;
+}
+
+.container small i{
+    font-size: 20px;
+}
+
+.secenekler{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+
+.secenek{
+    background-color: #f74c06;
+    margin: 10px;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+.secenek.active{
+    background-color: red !important;
+    border: 2px solid red;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.text{
+    position: relative;
+}
+
+.text .isaret{
+    color: #0d41e1;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.isaret.yesil{
+    color: green;
+}
+
+.isaret.kirmizi{
+    color: #f40752;
+}
+
+
+    
